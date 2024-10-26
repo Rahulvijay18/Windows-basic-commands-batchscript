@@ -52,7 +52,7 @@ Move the "MyLab" directory to the "Documents" folder.
 
 
 ## COMMAND AND OUTPUT
-![alt text](<Screenshot 2024-10-26 214411.png>)
+![alt text](image-1.png)
 
 
 ## Exercise 2: Advanced Batch Scripting
