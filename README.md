@@ -29,31 +29,43 @@ Create a directory named "MyLab" on the desktop.
 
 
 ## COMMAND AND OUTPUT
+![alt text](<Screenshot 2024-10-26 213643.png>)
 
 Change to the "MyLab" directory and create an empty text file named "MyFile.txt" inside it.
 
 
 ## COMMAND AND OUTPUT
+![alt text](<Screenshot 2024-10-26 213727.png>)
 
 List the contents of the "MyLab" directory.
 
 
 ## COMMAND AND OUTPUT
+![alt text](<Screenshot 2024-10-26 213837.png>)
 
 Copy "MyFile.txt" to a new folder named "Backup" on the desktop.
 
 ## COMMAND AND OUTPUT
+![alt text](<Screenshot 2024-10-26 214013.png>)
 
 Move the "MyLab" directory to the "Documents" folder.
 
 
 ## COMMAND AND OUTPUT
+![alt text](<Screenshot 2024-10-26 214411.png>)
 
 
 ## Exercise 2: Advanced Batch Scripting
 Create a batch script named "BackupScript.bat" that creates a backup of files with the ".docx" extension from the "Documents" folder to a new folder named "DocBackup" on the desktop.
 
-
+## BackupScript.bat
+```
+@echo off
+mkdir %userprofile%\Desktop\DocBackup
+copy %userprofile%\Documents\*.docx %userprofile%\Desktop\DocBackup
+del %userprofile%\Documents\DocBackup\*.docx
+echo Backup and deletion completed successfully!
+```
 
 
 
@@ -62,7 +74,7 @@ Create a batch script named "BackupScript.bat" that creates a backup of files wi
 ## OUTPUT
 
 
-
+![alt text](image.png)
 
 
 # RESULT:
